@@ -1,0 +1,12 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 160px
+}
+
+.app > button{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}

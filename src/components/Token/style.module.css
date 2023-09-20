@@ -1,0 +1,42 @@
+.coin,
+.coin div {
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+}
+
+.coin {
+	width: 170px;
+	border-bottom: 8px solid rgba(0, 0, 0, 0.3);
+	transition: scale 0.2s;
+}
+
+.coin:hover {
+	scale: 1.05;
+}
+
+.coin div {
+	width: 130px;
+	border-top: 6px solid rgba(0, 0, 0, 0.15);
+	background: var(--white-bg);
+}
+
+[color='rock'] {
+	background: var(--rock);
+}
+
+[color='paper'] {
+	background: var(--paper);
+}
+
+[color='scissors'] {
+	background: var(--scissors);
+}
+
+.coin img {
+	cursor: pointer;
+}
